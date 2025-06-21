@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBTI 성격 유형 검사</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="start-screen">
+            <h1>MBTI 성격 유형 검사</h1>
+            <p>총 40문항으로 당신의 성격 유형을 알아보세요.</p>
+            <button id="start-btn">검사 시작</button>
+        </div>
+        <div id="quiz-screen" class="hidden">
+            <div id="progress-bar-container">
+                <div id="progress-bar"></div>
+            </div>
+            <h2 id="question"></h2>
+            <button class="answer-btn"></button>
+            <button class="answer-btn"></button>
+        </div>
+        <div id="result-screen" class="hidden">
+            <h2>검사 결과</h2>
+            <h3 id="mbti-type"></h3>
+            <canvas id="result-chart"></canvas>
+            <div id="result-details">
+                <h4>성격 특징</h4>
+                <p id="description"></p>
+                <h4>장점</h4>
+                <p id="strengths"></p>
+                <h4>단점</h4>
+                <p id="weaknesses"></p>
+                <h4>보완할 점</h4>
+                <p id="improvements"></p>
+            </div>
+             <button id="restart-btn">다시 검사하기</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 

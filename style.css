@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    color: #5a3e8d;
+}
+
+h2 {
+    color: #5a3e8d;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    color: #7c5fab;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    color: #5a3e8d;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+
+button {
+    background-color: #5a3e8d;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #483273;
+}
+
+.answer-btn {
+    background-color: #7c5fab;
+    margin-bottom: 0.5rem;
+}
+
+.answer-btn:hover {
+    background-color: #694a96;
+}
+
+
+#restart-btn {
+    background-color: #f0ad4e;
+}
+
+#restart-btn:hover {
+    background-color: #ec971f;
+}
+
+.hidden {
+    display: none;
+}
+
+#progress-bar-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+#progress-bar {
+    width: 0%;
+    height: 10px;
+    background-color: #5a3e8d;
+    border-radius: 5px;
+    transition: width 0.3s;
+}
+
+#result-details p {
+    text-align: left;
+    line-height: 1.6;
+}
+
+#result-chart {
+    max-width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+} 
